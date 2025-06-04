@@ -1,0 +1,14 @@
+
+body {
+	background-image: url(imagens-estrutura/arvoregenealogica.png);
+	background-size: 100%;
+}
+h1 {
+	color: black;
+	text-align: center;
+	font-family: "Times New Roman";
+}
+
+._botao {
+	border: 5px dashed black;
+}
