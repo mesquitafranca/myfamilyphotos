@@ -20,10 +20,22 @@ form {
 
 #imagemhome {
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 
 }
 
 img {
-	border: 3px solid lightgreen;
+	/*border: 3px solid lightgreen;*/
 	padding: 5px;
+	margin: 5px;
+	width: 450px;
+	height: 300px;
+	transition: all 1s; 
+
+}
+
+img:hover {
+	transform: scale(1.05);
 }
