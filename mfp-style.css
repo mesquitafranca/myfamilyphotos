@@ -1,5 +1,9 @@
 
+html { 
+
+}
 body {
+	background: url(imagens-estrutura/arvoregenealogica.png) no-repeat center center fixed;
 	background-image: url(imagens-estrutura/arvoregenealogica.png);
 	background-size: 100%;
 }
