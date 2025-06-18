@@ -1,6 +1,17 @@
-var a, b;
+alert("Javascript is Here");
 
-a = prompt ("Seu Nome")
-b = prompt ("Sua Idade")
+var caixaTexto = document.getElementById("caixaTexto");
+var botaoOk = document.getElementById("botaoOk");
+var ul = document.querySelector("ul");
+var valor;
 
-alert("Seu Nome é " + a + ", sua idade é " + b);
+botaoOk.addEventListener("click", function(){
+	if (caixaTexto.value.length > 0)
+	{
+		console.log("passou")
+		var criarElemento = document.createElement("li");
+		criarElemento.appendChild(document.createTextNode(caixaTexto.value));
+		ul.appendChild(criarElemento);
+		caixaTexto.value = ""; 
+	}
+})
